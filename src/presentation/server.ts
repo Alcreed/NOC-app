@@ -14,15 +14,10 @@ export class Server {
 
     // Enviar email
     const emailService = new EmailSerive();
-    emailService.sendEmail({
-      to: "alfonso_gonzalezg@outlook.com",
-      subject: "Logs de sistema",
-      htmlBody: `
-        <h3>Logs de ssitema - NOC</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis mollis risus viverra convallis. Maecenas eu turpis vehicula, maximus nulla at, iaculis mi.</p>
-        <p>Ver logs adjuntos</p>
-      `,
-    });
+    emailService.sendEmailWithFSLogs([
+      "alfonso_gonzalezg@outlook.com",
+      "heralgongu9409@hotmail.com",
+    ]);
 
     // CronService.createJob("*/5 * * * * *", () => {
     //   const url = "https://google.com";
