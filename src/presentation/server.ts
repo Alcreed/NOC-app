@@ -13,11 +13,11 @@ export class Server {
     console.log("Server started...");
 
     // Enviar email
-    const emailService = new EmailSerive();
-    emailService.sendEmailWithFSLogs([
-      "alfonso_gonzalezg@outlook.com",
-      "heralgongu9409@hotmail.com",
-    ]);
+    // const emailService = new EmailSerive(fileSystemLogRepository);
+    // emailService.sendEmailWithFSLogs([
+    //   "alfonso_gonzalezg@outlook.com",
+    //   "heralgongu9409@hotmail.com",
+    // ]);
 
     // CronService.createJob("*/5 * * * * *", () => {
     //   const url = "https://google.com";
