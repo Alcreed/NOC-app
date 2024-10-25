@@ -16,10 +16,10 @@ export class Server {
     console.log("Server started...");
 
     // Enviar email
-    new SendEmailLogs(emailService, fileSystemLogRepository).execute([
-      "alfonso_gonzalezg@outlook.com",
-      "heralgongu9409@hotmail.com",
-    ]);
+    // new SendEmailLogs(emailService, fileSystemLogRepository).execute([
+    //   "alfonso_gonzalezg@outlook.com",
+    //   "heralgongu9409@hotmail.com",
+    // ]);
     // emailService.sendEmailWithFSLogs([
     //   "alfonso_gonzalezg@outlook.com",
     //   "heralgongu9409@hotmail.com",
