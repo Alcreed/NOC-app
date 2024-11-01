@@ -10,3 +10,4 @@ logs/
 
 mongodb_data/
 mongo/
+postgres/
